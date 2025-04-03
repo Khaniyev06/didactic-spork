@@ -5,3 +5,22 @@
     font-style: normal;
 }
 
+header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > .main {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: black
+}
+
+
+header > .main > img {
+    width: 97px;
+}
