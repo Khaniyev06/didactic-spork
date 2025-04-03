@@ -21,7 +21,47 @@
     <div class="first">
         <h1>Подайте заявку на восстановление</h1>
         <p>Если Вы потеряли военный билет, подайте заявку и восстановите его. После того как Мы восстановим Вам военный билет, Вы можете забрать его в военном комиссариате города Нефтекамск</p>
-        <button>Подать заявку</button>
+        <button id="openHelp">Подать заявку</button>
+    </div>
+    <div id="getHelp">
+        <h1>Заявка на восстановление Военного билета</h1>
+        <form action="" class="info">
+            <div class="personal">
+                <label for="surname">
+                    Фамилия <input type="text" id="surname" required>
+                </label>
+                <label for="name">
+                    Имя <input type="text" id="name" required>
+                </label>
+                <label for="patronymic">
+                    Отчество (при наличии) <input type="text" id="patronymic">
+                </label>
+                <label for="birthday">
+                    Дата рождения <input type="text" id="birthday" required>
+                </label>
+                <label for="address">
+                    Адрес (место прописки) <input type="text" id="address" required>
+                </label>
+            </div>
+            <div class="passport">
+                <label for="serial">
+                    Серия и номер паспорта <input type="text" id="serial" required>
+                </label>
+                <label for="getdate">
+                    Дата выдачи паспорта <input type="text" id="getdate" required>
+                </label>
+                <label for="getwho">
+                    Кем был выдан паспорт <input type="text" id="getwho" required>
+                </label>
+                <label class="agree" for="agree">
+                    <input id="agree" type="checkbox"> Я соглашаюсь с правилами <a href="#">обработки персональных
+                    данных</a> для МВД по г. Нефтекамск и Военному комиссариату г. Нефтекамск
+                </label>
+                <button id="send">
+                    Подать заявку
+                </button>
+            </div>
+        </form>
     </div>
 </main>
 

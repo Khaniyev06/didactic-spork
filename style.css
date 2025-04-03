@@ -47,6 +47,7 @@ main {
 .first {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -76,5 +77,68 @@ main {
 }
 
 .first > button:hover {
+    cursor: pointer;
+}
+
+#getHelp {
+    display: none;
+    flex-direction: column;
+    gap: 40px;
+    font-family: "Inter", sans-serif;
+}
+
+.personal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.passport {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 40px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.agree {
+    display: unset;
+}
+
+.agree > a {
+    color: #b59100;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    background: #eaeaea;
+    border: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.passport > button {
+    padding: 10px 0;
+    width: 200px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background: #FFD300;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.passport > button:hover {
     cursor: pointer;
 }
